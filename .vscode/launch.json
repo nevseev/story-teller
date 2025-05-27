@@ -5,21 +5,30 @@
             "name": "Flutter",
             "type": "dart",
             "request": "launch",
-            "program": "lib/main.dart"
+            "program": "lib/main.dart",
+            "toolArgs": [
+                "--dart-define=ELEVENLABS_API_KEY=sk_24e70ae60737e3ac972a648f06e689ef4053c964b47077ad"
+            ]
         },
         {
             "name": "Flutter (profile mode)",
             "type": "dart",
             "request": "launch",
             "program": "lib/main.dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "toolArgs": [
+                "--dart-define=ELEVENLABS_API_KEY=sk_24e70ae60737e3ac972a648f06e689ef4053c964b47077ad"
+            ]
         },
         {
             "name": "Flutter (release mode)",
             "type": "dart",
             "request": "launch",
             "program": "lib/main.dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "toolArgs": [
+                "--dart-define=ELEVENLABS_API_KEY=sk_24e70ae60737e3ac972a648f06e689ef4053c964b47077ad"
+            ]
         }
     ]
 }

@@ -1,6 +1,11 @@
 name: story_teller
-description: A Flutter application with a microphone button and storyteller background.
-publish_to: 'none'
+description: An AI-powered storytelling app with ElevenLabs voice generation
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' 
+
+# The following defines the version and build number for your application.
 version: 1.0.0+1
 
 environment:
@@ -10,6 +15,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  http: ^0.13.5
+  just_audio: ^0.9.32
+  path_provider: ^2.0.14
+  speech_to_text: ^6.1.1
 
 dev_dependencies:
   flutter_test:
@@ -18,5 +27,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
   assets:
     - assets/images/
